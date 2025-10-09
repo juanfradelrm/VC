@@ -1,7 +1,7 @@
 # Detección y reconocimiento de formas
 
 ## Descripción del trabajo
-Este repositorio con tiene dos ejercicios de visión por computador desarrollados en **Python** con la librería **OpenCV**. Cada uno trata un problema distinto de análisis de imágenes. Las tareas realizadas son las siguientes:
+Este repositorio con tiene dos ejercicios de visión por computador desarrollados en **Python** con la librería **OpenCV**. Cada uno trata un problema distinto de análisis de imágenes. Los ejercicios realizados son los siguientes:
 
 #### 1. **Contador de dinero** en imágenes
 En este ejercicio se ha desarrollado un sistema capaz de calcular la cantidad total de dinero presente en una imagen con monedas. Para su correcto funcionamiento se debe de hacer click en la moneda de un euro en la imagen, que se usa como referencia para calcular el valor de las demás.
