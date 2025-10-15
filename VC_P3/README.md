@@ -47,7 +47,7 @@ Funcionamiento:
 
 <p>
     <img src="Comparacion_clasificaciones.jpg" alt="Comparación de la clasigicación real con la obtenida"/>
-    <img src="matrizConfusion.jpg" alt="Matriz de confusión"/>
+    <img src="matrizConfusion.png" alt="Matriz de confusión"/>
    
 </p>
 
