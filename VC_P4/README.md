@@ -156,6 +156,28 @@ Ambos modelos se aplican al mismo [video de test](https://alumnosulpgc-my.sharep
 
 El objetivo es **evaluar el rendimiento y precisión de cada modelo** bajo las mismas condiciones, analizando sus fortalezas y limitaciones.
 
+## Justificación del cálculo de la tasa de acierto
+
+En el vídeo empleado no se dispone de anotaciones reales (*ground truth*) que permitan comparar las matrículas detectadas con los valores verdaderos. Por ello, no es posible calcular métricas clásicas de rendimiento como la precisión o el *recall*.  
+En su lugar, se ha definido una métrica funcional denominada **tasa de acierto**, que se calcula como:
+
+
+tasa acierto = vehículos con matrícula detectada \ total de vehículos detectados
+
+
+Esta métrica no evalúa la exactitud del texto reconocido, sino la **capacidad del sistema para detectar y asociar una matrícula a cada vehículo**.  
+Se considera un acierto cuando el modelo OCR ha devuelto algún texto (no vacío) para una matrícula detectada y asociada espacialmente a un vehículo. Si no se logra extraer ningún texto, el vehículo se contabiliza como sin matrícula.
+
+---
+
+## Diferencias entre modelos OCR
+
+Aunque la tasa de acierto no verifica la corrección del texto reconocido, su valor puede variar en función del modelo OCR utilizado (por ejemplo, *SmolVLM* o *EasyOCR*).  
+Esto se debe a que cada modelo presenta **diferente sensibilidad a condiciones visuales** como desenfoques, reflejos o ángulos de cámara. Un modelo más robusto será capaz de extraer texto en un mayor número de casos, incluso si el resultado no es exacto, lo que incrementa el número de matrículas detectadas y, por tanto, la tasa de acierto.
+
+En consecuencia, esta métrica refleja la **eficiencia operativa del pipeline completo** de detección, asociación y lectura de matrículas, más que la exactitud textual del OCR.
+
+
 ---
 
 ### Gráficas comparativas
