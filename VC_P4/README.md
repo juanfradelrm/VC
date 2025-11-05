@@ -207,7 +207,13 @@ Este trabajo ha sido realizado por Juan Francisco del Rosario Machin y Mario Gar
 Durante el desarrollo de la práctica se consultaron o utilizaron las siguientes fuentes:
 
 - Documentación oficial de OpenCV: [https://docs.opencv.org](https://docs.opencv.org)
-- Consultas realizadas a [ChatGPT](https://chatgpt.com/)
+- Consultas realizadas a [ChatGPT](https://chatgpt.com/) sobre:
+  - Técnicas de detección de matrículas mediante análisis de contornos
+  - Estrategias para optimizar el procesamiento frame a frame y evitar cuellos de botella
+  - Diseño de prompts efectivos para modelos de visión-lenguaje en tareas de OCR
+  - Lógica para asociar detecciones de matrículas con vehículos mediante IDs de tracking
+  - Instalación y compatibilidad de dependencias
+  - Cómo mantener el mejor resultado de OCR cuando un vehículo aparece en múltiples frames
 - Repositorio oficial de EasyOCR: [https://github.com/JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
 - Artículo sobre SmolVLM en Hugging Face: [https://huggingface.co/spaces/ashkamath/smol-vlm](https://huggingface.co/spaces/ashkamath/smol-vlm)
 - Documentación de pandas para análisis de datos: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
