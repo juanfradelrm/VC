@@ -5,3 +5,4 @@
 - [Práctica 2: Primeros pasos con OpenCV II](VC_P2/README.md)
 - [Práctica 3: Detección y reconocimiento de formas](VC_P3/README.md)
 - [Práctica 4: Detección de vehículos y matrículas](VC_P4/README.md)
+- [Práctica 5: Detección y caracterización de caras](VC_P5/README.md)
