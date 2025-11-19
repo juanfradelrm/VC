@@ -102,7 +102,7 @@ Finalmente, se dibuja un recuadro alrededor de la cara detectada y se escribe el
 
 ### Ejemplo
 
-**PONER EL GIF**
+![Ejemplo emociones](emociones.gif)
 
 ---
 
