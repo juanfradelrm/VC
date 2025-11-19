@@ -104,6 +104,7 @@ Finalmente, se dibuja un recuadro alrededor de la cara detectada y se escribe el
 
 ![Ejemplo emociones](emociones.gif)
 
+[Video con mejor calidad](video-emociones.mp4)
 ---
 
 ## Thermal Vision Filter
